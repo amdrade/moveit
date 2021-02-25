@@ -1,0 +1,38 @@
+.container {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    font-family: Rajdhani;
+    font-weight: 600;
+    color: var(--title);
+}
+
+.container > div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: var(--white);
+    font-size: 8.5rem;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container > span {
+    margin: 0 0.5rem;
+    font-size: 6.25rem;
+}
+
+.botao {
+    background-color: var(--blue);
+    border: none;
+    border-radius: 2px;
+    padding: 2rem;
+    color: var(--white);
+}
+
+.botao:hover {
+    background-color: var(--blue-dark);
+}
